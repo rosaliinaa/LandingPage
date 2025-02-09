@@ -1,0 +1,248 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url("Rubik-VariableFont_wght.ttf"); 
+}
+
+@font-face {
+    font-family: 'Rambla';
+    src: url(Rambla-Regular.ttf)
+}
+
+@font-face {
+    font-family: 'Karla';
+    src: url(Karla-VariableFont_wght.ttf)
+}
+/* Importe des polices d'écriture depuis l'ordinateur qui pourront être utilisées par la suite. */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Applique des paramètres de position et de couleur de fond à la page. */
+
+.header {
+    background: #ffffff;
+    padding: 0px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Applique des paramètres de position et de couleur de fond au header de la page. */
+
+.header_haut {
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    position: absolute;
+    z-index:2;
+    width: 100%;
+}
+
+/* Applique des paramètres de position et de police d'écriture au header de la page, ainsi que des paramètres de position sur l'axe Z (afin que la division passe au dessus de l'image). */
+
+.bloc-1 {
+    margin-left:2%;
+    margin-top:2%;
+}
+
+.bloc-2 {
+    margin-left: 51%;
+    margin-top: 2%;
+    font-size: 16px;
+    color: white;
+}
+
+.bloc-3 {
+    margin-left: 6%;
+    margin-top: 2%;
+    font-size: 16px;
+    color:#ffffff;
+}
+
+.bloc-4 {
+    margin-top: 2%;
+    margin-left: 5%;
+    font-size: 25px;
+}
+
+button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0); 
+    border: none;
+    padding: 12px 60px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+/* Applique des paramètres de position, de couleur de texte et de fond, de taille du texte au header de la page. Création d'un bouton interacitf. */
+
+.header_bas {
+    display:flex;
+}
+
+.header_bas_gauche {
+    font-size: 31px;
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+    margin-left: 80px;
+    margin-top: 170px;
+    margin-right: 40px;
+    margin-bottom: 0px;
+    height: 143px;
+    width: 580px;
+}
+
+.sous-titre {
+    font-family:'Rambla', sans-serif;
+    font-size: 26px;
+    margin-left: 130px;
+}
+
+.description {
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    margin-left: 80px;
+    text-align: justify;
+}
+
+.header_bas_droite {
+    position: relative;
+    margin-left : 146px;
+    z-index: 1;
+}
+
+/* Applique des paramètres de position, de couleur de texte et de police au header de la page, ainsi que des paramètres de position sur l'axe Z (afin que la division passe au dessus de l'image) */
+
+.corps {
+    display:flex;
+    margin-top: 60px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.bloc-5 {
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    margin-left:70px;
+    width: 25%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Applique des paramètres de position et de couleur de fond au corps de la page. */
+
+.titre_partie {
+    margin-left: 60px;
+    font-size: 33px;
+    margin-top: 40px;
+}
+
+.titre_booster {
+    font-size: 26px;
+    color:black;
+}
+
+.Articles {
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+    text-align: justify;
+}
+
+.Booster {
+    display: flex;
+    margin-left:100px;
+    margin-top: 50px;
+    width: 40%;
+}
+
+.Detail_Produit {
+    margin-left: 25px;
+}
+
+.Prix {
+    color:#4e4e4e;
+}
+
+.Etoile_Avis {
+    display: flex;
+    height: 12px;
+    margin-top: 4px;
+    align-items: center;
+}
+
+.Nombre_Avis {
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color:#717171;
+}
+
+.Booster_Avis {
+    font-family: 'Rambla', sans-serif;
+    color:#a8a8a8;
+}
+
+/* Applique des paramètres de position, de couleur de fond et de texte, et de police au corps de la page. */
+
+.bloc-7 {
+    margin: auto;
+}
+
+.swiper {
+  width: 147px;
+  height: 249px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Mise en place d'un carroussel. */
+
+.Avis {
+    font-family: 'Rambla', sans-serif;
+    color:#a8a8a8;
+    margin-left: 100px;
+}
+
+.footer {
+    display: flex;
+    background-color:#50D2DB;
+    font-family: 'Rubik', sans-serif;
+    color:white;
+}
+
+.bloc-10 {
+    width: 50%;
+    text-align:end;
+    padding:15px;
+}
+
+.bloc-11 {
+    width: 50%;
+    text-align:start;
+    padding:15px;
+}
+
+.titre_footer {
+    font-size: 33px;
+    margin-top: 40px;
+}
+
+/* Applique des paramètres de position, de couleur de fond et de texte, et de police au footer de la page. */
